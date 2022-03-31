@@ -1,0 +1,85 @@
+*{
+    
+    font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+
+body{
+    background-color: var(--secondary);
+    /* height: 100vh;    */
+}
+.hero{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	background-position: center;
+    padding-top: 45px;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: #f9004d;
+	transition: .4s;
+}
+.content{
+	position: absolute;
+	top: 50%;
+	left:8%;
+	transform: translateY(-50%);
+}
+.main-navbar{
+    background-color: none;
+}
+h4{
+    color: aliceblue;
+}
+span{
+    color:#f9004d;
+}
+.nav-link{
+    color: #fff !important  ;
+}
+.navbar-collapse{
+    flex-grow: unset !important;
+}
+.slider-image img{
+    width: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.slider{
+    height: 100vh;  
+    display: flex;
+    align-items: center;
+}
+h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+}
+h3{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+h4{
+	color: #fcfc;
+	letter-spacing: 3px;
+	font-size: 20px;
+}
+.logo{
+	color: white;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
