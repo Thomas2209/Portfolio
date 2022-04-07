@@ -6,7 +6,7 @@
 
 body{
     background-color: var(--secondary);
-    /* height: 100vh;    */
+    height: 100vh;   
 }
 .hero{
 	background-color: black;
@@ -91,6 +91,7 @@ h4{
 	overflow: hidden;
 	margin-top:50px;
 	margin-left: 50px;
+	margin-bottom: 50px;
 }
 .about{
 	background-color: #13161C;
@@ -106,4 +107,38 @@ h4{
 	width: 100%;
 	height: 1px;
 	background-color:#139DE8;
+}
+
+/* experience */
+.exper{
+	background-color: black;
+}
+.card{
+	height: 390px;
+	width: 335px;
+	padding:20px 20px;
+	background:#191919;
+	border-radius: 20px;
+	margin: 20px;
+	overflow: hidden;
+	text-align: center;
+}
+.card i{
+	font-size: 50px;
+	text-align: center;
+	margin: 25px 0px;
+	color:#139DE8;
+}
+.parcours{
+	color: #fff;
+	font-size: 75px;
+	width: 1130px;
+	margin: 0 auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
 }
