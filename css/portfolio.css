@@ -6,7 +6,7 @@
 
 body{
     background-color: var(--secondary);
-    height: 100vh;   
+    /* height: 100vh;    */
 }
 .logo{
 	width: 170px;
@@ -137,7 +137,6 @@ h4{
 	font-size: 75px;
 	width: 1130px;
 	text-align: center;
-	margin-left: 50px;
 	margin-top: 100px;
 }
 .box{
@@ -170,4 +169,10 @@ h5{
 	transition: .4s;
 }
 
+/* talent */
+	
+
 /* contact */
+.contact .title::after{
+	content: "Prendre contact";
+}
