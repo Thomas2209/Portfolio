@@ -65,7 +65,7 @@ h1{
 	font-size: 75px;
 }
 h3{
-	color: #139DE8;
+	color: #fff;
 	font-size: 25px;
 	margin-bottom: 50px;
 }
@@ -135,7 +135,7 @@ h4{
 	color: #fff;
 	font-size: 65px;
 	text-align: center;
-	margin-top: 100px;
+	
 }
 .box{
 	display: flex;
@@ -159,6 +159,40 @@ h5{
 
 
 /* competence */
+.skills{
+	background-color:#13161C;
+}
+.skills .progress{
+	height: 50px;
+	display: block;
+	background: none;
+}
+.skills .progress .skill {
+	padding: 10px 0;
+	/* margin: 0 0 6px 0; */
+	text-transform: uppercase;
+	display: block;
+	font-weight: 600;
+	color: #fff;
+}
+.skills .progress .skill .val{
+	float: right;
+	/* font-style: normal; */
+}
+.skills .progress-bar-wrap{
+	background: rgba(255, 255, 255, 0.15);
+}
+.skills .progress-bar{
+	width: 1px;
+	height: 15px;	
+	transition: .9s;
+	background-color: #18d26e;
+}
+.competences{
+	color: #fff;
+	font-size: 65px;
+	text-align: center;
+}
 	
 
 /* contact */
@@ -166,7 +200,7 @@ h5{
 	display: flex;
 }
 .contact{
-	background-color: #13161C;
+	background-color: black;
 }
 .contact h2{
 	color: #fff;
@@ -185,7 +219,7 @@ h5{
 }
 /* footer */
 footer{
-	background-color:black ;
+	background-color:#13161C ;
 	height: 100px;
 	text-align: center;
 }
