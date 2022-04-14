@@ -89,7 +89,6 @@ h4{
 	overflow: hidden;
 	margin-top:50px;
 	margin-left: 50px;
-	margin-bottom: 50px;
 }
 .biogaphie{
 	color: #fff;
@@ -186,7 +185,7 @@ h5{
 	width: 1px;
 	height: 15px;	
 	transition: .9s;
-	background-color: #18d26e;
+	background-color: #139DE8;
 }
 .competences{
 	color: #fff;
@@ -217,6 +216,7 @@ h5{
 .form-label{
 	color: #fff;
 }
+
 /* footer */
 footer{
 	background-color:#13161C ;
