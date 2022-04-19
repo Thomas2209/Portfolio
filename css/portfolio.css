@@ -161,6 +161,10 @@ h5{
 .skills{
 	background-color:#13161C;
 }
+.progress{
+	padding-left: 10px;
+	padding-right: 10px;
+}
 .skills .progress{
 	height: 50px;
 	display: block;
