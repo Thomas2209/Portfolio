@@ -11,10 +11,8 @@ body{
 	width: 170px;
 }
 .hero{
-	background-color: black;
+	background-image:url('..//img/thomas.jpg');
 	background-size: cover;
-	background-position: center;
-    padding-top: 45px;
 }
 nav ul li{
 	list-style-type: none;
@@ -44,7 +42,7 @@ span{
     color:#139DE8;
 }
 .nav-link{
-    color: #fff !important  ;
+    color: #139DE8 !important  ;
 }
 .navbar-collapse{
     flex-grow: unset !important;
