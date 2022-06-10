@@ -42,7 +42,7 @@ span{
     color:#139DE8;
 }
 .nav-link{
-    color: #139DE8 !important  ;
+    color: white !important;
 }
 .navbar-collapse{
     flex-grow: unset !important;
