@@ -11,13 +11,13 @@ body{
 	width: 170px;
 }
 .hero{
-	background-image:url('..//img/thomas.jpg');
+	background-image:url('..//images/thomas.jpg');
 	background-size: cover;
 }
 nav ul li{
 	list-style-type: none;
 	display: inline-block;
-	padding: 10px  25px;
+	padding: 10px ;
 }
 nav ul li a{
 	color: white;
@@ -122,12 +122,6 @@ h4{
 	overflow: hidden;
 	text-align: center;
 }
-.card i{
-	font-size: 50px;
-	text-align: center;
-	margin: 25px 0px;
-	color:#139DE8;
-}
 .parcours{
 	color: #fff;
 	font-size: 65px;
@@ -194,14 +188,62 @@ h5{
 	font-size: 55px;
 	text-align: center;
 }
-	
+	/* portfolio */
+	.portfolio{
+		background-color: black;
+	}
+	.portfolio-title{
+		color: #fff;
+	font-size: 55px;
+	}
+.control ul li{
+	list-style: none;
+	background-color:#139DE8;
+	padding: 5px 15px;
+	color: #fff;
+	display: inline-block;
+	cursor: pointer;
+	letter-spacing: 2px;
+}
+.item{
+	position: relative;
+}
+.item:hover{
+	-webkit-box-shadow : 10px 10px 58px 0px rgba (105,147,184,1);
+	-moz-box-shadow : 10px 10px 58px 0px rgba (105,147,184,1);
+	box-shadow : 10px 10px 58px 0px rgba(105,147,184,1);
+     transition: 0,5s;
+}
+.item span{
+	position: absolute;
+	top:35%;
+	left: 40%;
+	font-size: 40px;
+	color: black;
+	cursor: pointer;
+	opacity: 0;
+}
+.item:hover span{
+	opacity: 1;
+	transition: 0,5s;
+}
+.item:before{
+	content: "";
+	left:0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(238, 235, 230, 0.416);
+	opacity:1;
+	position:absolute;
+}
 
 /* contact */
 .iconSection{
 	display: flex;
 }
 .contact{
-	background-color: black;
+	background-color: #13161C;
 }
 .contact h2{
 	color: #fff;
@@ -221,7 +263,7 @@ h5{
 
 /* footer */
 footer{
-	background-color:#13161C ;
+	background-color:black;
 	height: 100px;
 	text-align: center;
 }
