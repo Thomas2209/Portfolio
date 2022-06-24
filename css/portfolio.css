@@ -24,10 +24,11 @@ nav ul li a{
 	text-decoration: none;
 	font-weight: bold;
 	text-transform: capitalize;
+	margin-right: 20px;
 }
-nav ul li a:hover{
-	color: #f9004d;
-	transition: .4s;
+a:hover{
+	color: #139DE8;
+	transition: 0.4s;
 }
 .content{
 	position: absolute;
@@ -45,7 +46,7 @@ span{
     color: white !important;
 }
 .navbar-collapse{
-    flex-grow: unset !important;
+    /* flex-grow: unset !important; */
 }
 .slider-image img{
     width: 100%;
@@ -196,47 +197,6 @@ h5{
 		color: #fff;
 	font-size: 55px;
 	}
-.control ul li{
-	list-style: none;
-	background-color:#139DE8;
-	padding: 5px 15px;
-	color: #fff;
-	display: inline-block;
-	cursor: pointer;
-	letter-spacing: 2px;
-}
-.item{
-	position: relative;
-}
-.item:hover{
-	-webkit-box-shadow : 10px 10px 58px 0px rgba (105,147,184,1);
-	-moz-box-shadow : 10px 10px 58px 0px rgba (105,147,184,1);
-	box-shadow : 10px 10px 58px 0px rgba(105,147,184,1);
-     transition: 0,5s;
-}
-.item span{
-	position: absolute;
-	top:35%;
-	left: 40%;
-	font-size: 40px;
-	color: black;
-	cursor: pointer;
-	opacity: 0;
-}
-.item:hover span{
-	opacity: 1;
-	transition: 0,5s;
-}
-.item:before{
-	content: "";
-	left:0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	background-color: rgba(238, 235, 230, 0.416);
-	opacity:1;
-	position:absolute;
-}
 
 /* contact */
 .iconSection{
