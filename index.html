@@ -33,24 +33,23 @@
     <div class="hero">
       <!-- Navbar -->
   <section class="navbar">    
-  <div class="col-lg-12 mx-auto">
+  <div class="col-lg-12">
     <div class="row main-navbar">
         <nav class="navbar navbar-expand-lg navbar-light">
-          <div>
-            <img  class="logo" src="assets/images/logo.png" >
-          </div>
-             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-               <i class="bi bi-list" style="font-size: 3rem; color: #139DE8;"></i>
+            <img class="logo" src="assets/images/logo.png" >
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <i class="bi bi-list" style="font-size: 2rem; color: #139DE8;"></i>
              </button>
              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-               <ul class="navbar-nav mx-auto mt-4">
+               <ul class="navbar-nav mt-4">
                  <li class="nav-link nav-item active">
-                   <a aria-current="page" href="#accueil">Accueil</a>
+                   <a aria-current="page" href="#accueil" >Accueil</a>
                  </li>
                  <li class="nav-link nav-item active">
                    <a aria-current="page" href="#about">A propos</a>
                  </li>
-                 <!-- <li class="nav-link nav-item active">
+                 <!-- <li class="na   v-link nav-item active">
                    <a aria-current="page" href="#services">Services</a>
                  </li> -->
                  <li class="nav-link nav-item active">
@@ -72,13 +71,13 @@
 
 <!-- Slider -->
 <section id="accueil">
-  <div class="col-lg-12">
-  <div class="row slider">
-         <div>
-           <h5 class="bonjour mb-4"><b>Bonjour, je m'appel</b></h5>
-         <h1 class="name"><b>Thomas</b> <span><b>Cissé</b></span></h1>
-         <h4 class="description"><b>Je suis developpeur full-stak junior.</b></h4>
-         </div>
+  <div class="col-lg-5 ">
+  <div class="row slider mx-auto pl-5">
+    <div>
+      <h5 class="bonjour mb-4"><b>Bonjour, je m'appel</b></h5>
+    <h1 class="name"><b>Thomas</b> <span><b>Cissé</b></span></h1>
+    <h4 class="description"><b>Je suis developpeur full-stak junior.</b></h4>
+    </div>
     </div>
    </div>
 </section>
@@ -134,7 +133,7 @@
                     </tr>
                   </tbody>
                 </table>
-                <a href="./assets/Thomas_cv/CV.pdf"><button class="btn btn-primary mt-5">Télécharger CV</button></a>
+                <a href="./assets/Thomas_cv/CV.pdf"><button class="btn btn-primary mt-5 mb-5">Télécharger CV</button></a>
               </div>
              </div>
            </div>
@@ -407,10 +406,9 @@
   <!-- Contact me -->
   <section id="contact">
     <div class="col-lg-12 contact"> 
-      <div class="row">
-      <h2 class="sm-title mt-5 mb-5">Contact</h2>
-        <div class="col-lg-6">
-          <div class="col-lg-7 mx-auto">
+      <div class="row mx-auto">
+      <h2 class="mt-5 mb-5">Contact</h2>
+        <div class="row mx-auto mb-5">
             <div class="mb-5">
               <h3 class="c-text">Veuillez me <span>contacter</span></h3>
             </div>
@@ -420,38 +418,38 @@
            <p class="icon-text"><i class="bi bi-envelope-fill"></i>&nbsp;thomascisse20@gmail.com</p>
           
           <p class="icon-text"><i class="bi bi-geo-alt-fill"></i>&nbsp;Kalaban coura ACI, rue, porte</p>
-          </div>
         </div>
-        <div class="col-lg-6 mx-auto">
-          <div class="col-lg-9 form">
+          <div class="col-lg-6 mx-auto">
             <div class="mb-5">
               <h3 class="c-text">Envoyer un <span>message ici</span></h3>
             </div>
-            
-         <div class="row">
-          <div class="col-5 mb-3">
-            <label for="prenom" class="form-label">Prénom</label>
-            <input type="text" class="form-control" placeholder="prenom" aria-label="First name">
-        </div>
 
-        <div class="col-5">
-          <label for="nom" class="form-label">Nom</label>
-          <input type="text" class="form-control" placeholder="nom" aria-label="Last name">
-        </div>
-         </div>
-
-          <div class="col-11 mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Adresse Email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nom@example.com">
+            <div class="row mx-auto">
+          <div class="names">
+            <div class="prenom">
+              <label for="prenom mb-4" class="form-label">Prénom</label>
+              <input type="text" class="form-control" placeholder="prenom" aria-label="First name">
+            </div>
+              <div class="nom mb-4">
+            <label for="nom" class="form-label">Nom</label>
+            <input type="text" class="form-control" placeholder="nom" aria-label="Last name">
+           </div>
           </div>
-
-          <div class="col-11 mb-4">
-            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    
+            <div class="email mb-4">
+              <label for="exampleFormControlInput1" class="form-label">Adresse Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nom@example.com">
+            </div>
+    
+            <div class="message">
+              <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+    
+            <div class="">
+              <button class="c-btn mt-4 btn btn-success mb-5">Envoyer</button>
+            </div>
           </div>
-
-          <button class="btn btn-success mb-5">Envoyer</button>
-        </div>
           </div>
       </div>
     </div>

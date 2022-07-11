@@ -1,7 +1,7 @@
 *{
     
     font-family: 'Josefin Sans', sans-serif;
-	box-sizing: border-box;
+	/* box-sizing: border-box; */
 }
 html, body{
 	max-width: 100%;
@@ -33,12 +33,12 @@ a:hover{
 	color: #139DE8;
 	transition: 0.4s;
 }
-.content{
+/* .content{
 	position: absolute;
 	top: 50%;
 	left:8%;
 	transform: translateY(-50%);
-}
+} */
 .main-navbar{
     background-color: none;
 }
@@ -70,12 +70,6 @@ h5 b{
 	letter-spacing: 3px;
 	font-size: 20px;
 }
-/* accueil */
-#accueil{
-	margin-left: 100px;
-}
-/* about */
-
 .about-image{
 	width:80%;
 	border-radius: 5%;
@@ -118,7 +112,7 @@ h5 b{
 }
 .parcours{
 	color: #fff;
-	font-size: 65px;
+	font-size: 55px;
 	text-align: center;
 	
 }
@@ -342,23 +336,35 @@ h5{
 }
 .contact h2{
 	color: #fff;
-	font-size: 65px;
+	font-size: 55px;
 	text-align: center;
 }
 .icon-text{
 	color: #fff;
-	margin-left: 50px;
 }
 .icon-text i{
 	color:#149ddd;
 }
 .c-text{
 	color: #fff;
+	text-align: center;
 }
 .form-label{
 	color: #fff;
 }
-
+.prenom {
+	width: 250px;
+}
+.nom{
+	width: 250px;
+	margin-left: 30px;
+}
+.email{
+	width: 100px;
+}
+.names{
+	display: flex;
+}
 /* footer */
 footer{
 	background-color:black;
