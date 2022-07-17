@@ -8,11 +8,10 @@ html, body{
 	overflow-x: hidden;
 }
 .logo{
-	width: 150px;
+	width: 10px;
 	margin-left: 90px;
 	/* cursor: pointer; */
 }
-
 .hero{
 	background-image:url('../images/thomas.jpg');
 	background-size: cover;
@@ -40,7 +39,7 @@ a:hover{
 	transform: translateY(-50%);
 } */
 .main-navbar{
-    background-color: none;
+    /* background-color: none; */
 }
 span{
     color:#139DE8;
