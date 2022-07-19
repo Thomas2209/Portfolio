@@ -257,3 +257,32 @@
   
 
 })()
+
+const textAnim = document.querySelector('h4.description b ');
+
+new Typewriter(textAnim, {
+  loop:true,
+  deleteSpeed:30
+})
+.changeDelay(50)
+.typeString('<span style="color:#fff">Je suis développeur full-stack junior !</span>')
+.pauseFor(1000)
+.deleteChars(19)
+.typeString('<span style="color:#178538">CSS !</span>')
+.pauseFor(1000)
+.deleteChars(5)
+.typeString('<span style="color:#E89802">JAVASCRIPT !</span>')
+.pauseFor(1000)
+.deleteChars(12)
+.typeString('<span style="color:#ED1D25">JAVA !</span>')
+.pauseFor(1000)
+.deleteChars(6)
+.typeString('<span style="color:#6DB33F">SPRINGBOOT !</span>')
+.pauseFor(1000)
+.deleteChars(12)
+.typeString('<span style="color:#B52E31">ANGULAR !</span>')
+.pauseFor(1000)
+.deleteChars(9)
+.typeString('<span style="color:#00749C">WORDPRESS !</span>')
+.pauseFor(1000)
+.start()

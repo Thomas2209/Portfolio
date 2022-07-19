@@ -1,7 +1,7 @@
 *{
     
     font-family: 'Josefin Sans', sans-serif;
-	/* box-sizing: border-box; */
+	box-sizing: border-box;
 }
 html, body{
 	max-width: 100%;
@@ -15,6 +15,7 @@ html, body{
 .hero{
 	background-image:url('../images/thomas.jpg');
 	background-size: cover;
+	background-position: center;
 }
 nav ul li{
 	list-style-type: none;
@@ -72,9 +73,7 @@ h5 b{
 .about-image{
 	width:80%;
 	border-radius: 5%;
-	overflow: hidden;
-	margin-top:30px;
-	margin-left: 50px;
+	/* overflow: hidden; */
 }
 .about{
 	text-align: left;
