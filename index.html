@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  
-  <link rel="stylesheet" href="./css/portfolio.css">
+  <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css">
+  <!-- css -->
   <link rel="stylesheet" href="assets/css/portfolio.css">
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,60 +25,55 @@
   </head>
 
   <body>
-    <div>
-      <!-- <div id="top">
-      <i class="bi bi-caret-up-square" style="font-size: 3rem; color: #139DE8;"></i> 
-    </div> -->
     <div class="hero">
       <!-- Navbar -->
-  <section class="navbar">    
-  <div class="col-lg-12 mx-auto">
-    <div class="row main-navbar">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <img src="assets/images/logo.png">
-             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-               <i class="bi bi-list" style="font-size: 2rem; color: #139DE8;"></i>
-             </button>  
-             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-               <ul class="navbar-nav mt-4">
-                 <li class="nav-link nav-item active">
-                   <a aria-current="page" href="#accueil" >Accueil</a>
-                 </li>
-                 <li class="nav-link nav-item active">
-                   <a aria-current="page" href="#about">A propos</a>
-                 </li>
-                 <!-- <li class="na   v-link nav-item active">
-                   <a aria-current="page" href="#services">Services</a>
-                 </li> -->
-                 <li class="nav-link nav-item active">
-                   <a aria-current="page" href="#skill">Compétences</a>
-                 </li>
-                 <li class="nav-link nav-item active">
-                   <a aria-current="page" href="#portfolio">Portfolio</a>
-                 </li>
-                 <li class="nav-link nav-item active">
-                   <a aria-current="page" href="#contact">Contact</a>
-                 </li>
-               </ul>
-             </div>
-         </nav>
-     </div>
-   </div>
-  </section>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container mt-3">
+        <a class="navbar-brand" href="#"><img src="assets/images/logo.png"></a>
+        <button 
+        class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="border:none;">
+         <i class="bi bi-list" style="font-size: 2rem; color:#139DE8;"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav .navbar-right mt-4">
+            <li class="nav-link nav-item active">
+              <a aria-current="page" href="#accueil" >Accueil</a>
+            </li>
+            <li class="nav-link nav-item active">
+              <a aria-current="page" href="#about">A propos</a>
+            </li>
+            <!-- <li class="na   v-link nav-item active">
+              <a aria-current="page" href="#services">Services</a>
+            </li> -->
+            <li class="nav-link nav-item active">
+              <a aria-current="page" href="#skill">Compétences</a>
+            </li>
+            <li class="nav-link nav-item active">
+              <a aria-current="page" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-link nav-item active">
+              <a aria-current="page" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 <!-- / navbar -->
 
 <!-- Slider -->
 <section id="accueil">
-  <div class="col-lg-10">
-  <div class="row mx-auto slider">
-    <div class="col-7">
-      <h5 class="bonjour mb-4"><b>Bonjour, je m'appel</b></h5>
-    <h1 class="name"><b>Thomas</b> <span><b>Cissé</b></span></h1>
-    <h4 class="description"><b>Je suis développeur full-stak junior.</b></h4>
-    </div>
-    </div>
-   </div>
+<div class="container mt-5">
+  <div class="col-lg-12">
+    <div class="row mx-auto slider">
+      <div class="col-6">
+        <h5 class="bonjour mb-4"><b>Bonjour, je m'appel</b></h5>
+      <h1 class="name"><b>Thomas</b> <span><b>Cissé</b></span></h1>
+      <h4 class="description"><b>Je suis développeur full-stak junior.</b></h4>
+      </div>
+      </div>
+     </div>
+</div>
 </section>
 <!-- / Slider -->
   </div>
@@ -87,9 +81,9 @@
 <!-- About me -->
 <section id="about">
   <div class="col-lg-12">
-    <div class="row">
-      <div class="col-lg-6">
-       <div class="col-10 mt-5 mb-5 mx-auto">
+    <div class="row mx-auto">
+      <div class="col-6">
+       <div class="col-10 mt-5 mb-5">
           <img class="about-image" src="assets/images/main-img.jpg">
        </div>
       </div>
@@ -121,7 +115,7 @@
                     </tr>
                     <tr>
                       <th>poid:</th>
-                      <td>6 Kg</td>
+                      <td>65Kg</td>
                     </tr>
                     <tr>
                       <th>Adresse:</th>
@@ -472,6 +466,7 @@
 <!-- Template Main JS File -->
 <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.js"></script>
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   
   <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

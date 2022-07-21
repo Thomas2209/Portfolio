@@ -20,7 +20,7 @@ html, body{
 nav ul li{
 	list-style-type: none;
 	display: inline-block;
-	padding: 10px ;
+	padding: 10px;
 }
 nav ul li a{
 	color: white;
@@ -73,13 +73,13 @@ h5 b{
 .about-image{
 	width:80%;
 	border-radius: 5%;
-	/* overflow: hidden; */
+	overflow: hidden;
 }
 .about{
 	text-align: left;
 	color: #fff;
 	font-size: 55px;
-	margin-top: 50px;
+	margin-top: 55px;
 }
 .biogaphie{
 	color: #fff;
