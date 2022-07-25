@@ -31,7 +31,7 @@ nav ul li a{
 	font-weight: bold;
 	text-transform: capitalize;
 }
-nav li a::after{
+li a::after{
 	content: '';
 	width: 0;
 	height: 3px;
