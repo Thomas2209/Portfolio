@@ -258,16 +258,17 @@
 
 })()
 
+// Animation texte
 const textAnim = document.querySelector('h4.description b ');
 
 new Typewriter(textAnim, {
   loop:true,
-  deleteSpeed:30
+  deleteSpeed:40
 })
-.changeDelay(50)
-.typeString('<span style="color:#fff">Je suis développeur full-stack junior !</span>')
+.changeDelay(100)
+.typeString('<span style="color:#fff">Je suis développeur web et mobile !</span>')
 .pauseFor(1000)
-.deleteChars(19)
+.deleteChars(15)
 .typeString('<span style="color:#178538">CSS !</span>')
 .pauseFor(1000)
 .deleteChars(5)
